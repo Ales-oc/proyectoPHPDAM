@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+
 	<div class="menu-container">
 		<input type="checkbox" id="menuicon" class="hamburger-checkbox">
 		<div class="hamburger-icon">
@@ -22,38 +23,32 @@
       
       	<nav>
         	<ul class="menu-links">
-				<li><a href="###">Québec, QC</a>
-					<span id="QC-info">
-						<p>+1 418-640-3300</p>
-					</span>
+			<li type="none" id="primerApartado">
+					<div class="menu-filter-blue">
+						<a href="#" class="enlace"></a>
+						<div class="image-container">
+							<img src="src/images/fotoMenuHub.jpg" alt="El Hub" width="640" height="340">			
+						</div>
+						<div class="menu-text">El Hub</div>
+					</div>	
 				</li>
-			
-				<li>
-					<a href="###">déjeuner</a>
+				<li type="none">
+					<div class="menu-filter-yellow">
+						<a href="#" class="enlace"></a>
+						<div class="image-container">
+							<img src="src/images/fotoMenuRecipes.jpg" alt="Recipes" width="640" height="340">	
+						</div>
+						<div class="menu-text">Recipes</div>
+					</div>
 				</li>
-
-				<li>
-					<a href="###">boulangerie</a>
-				</li>
-				<li>
-					<a href="###">boissons</a>
-				</li>
-        	</ul>
-         	<ul class="menu-links">
-                <li>
-					<a href="###">Washington, DC</a>
-                    <span id="DC-info">
-            			<p>+1 202-472-3850</p>
-          			</span>
-				</li>
-          		<li>
-					<a href="###">breakfast</a>
-				</li>
-          		<li>
-					<a href="###">bakery</a>
-				</li>
-          		<li>
-					<a href="###">bar</a>
+				<li type="none">
+					<div class="menu-filter-red">
+						<a href="#" class="enlace"></a>
+						<div class="image-container">
+							<img src="src/images/fotoMenuPerfil.jpg"  alt="Perfil" width="640" height="340">
+						</div>
+						<div class="menu-text">Perfil</div>
+					</div>
 				</li>
         	</ul>
       	</nav>
